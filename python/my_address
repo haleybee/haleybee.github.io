@@ -1,0 +1,4 @@
+my_address = {"my_name": "Haley Bryant", "my_street" = "400 Galloway St. NE", "my_city" = "Washington", "my_state" = "DC", "my_zip" = "20011"}
+print("my_name")
+print("my_street")
+print("my_city", "my_state", "my_zip")
