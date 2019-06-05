@@ -14,7 +14,8 @@
 #     for day in days:
 #         weekly_menu(ingredient, day)
 
-#define a collection
+#initially tried to print out a double indexed list of 1st ingredient + 1st day, etc. but using methods on lists didn't organize by index place. Using a dicitonary helped resolve that issue.
+
 recipes = {'chicken': 'mon', 'celery': 'tues', 'onion': 'wed', 'rice': 'thurs'}
 
 for ingredient, day in recipes.items():
